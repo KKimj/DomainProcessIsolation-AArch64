@@ -5,6 +5,11 @@ EFFICIENT DOMAIN-LEVEL PROCESS ISOLATION ON AARCH64​
 ## Getting Started
 ```
 $ git clone https://github.com/KKimj/DomainProcessIsolation-AArch64/
+
+
+$ git clone https://git.linaro.org/landing-teams/working/arm/arm-reference-platforms.git
+$ cd arm-reference-platforms
+$ sudo python3 sync_workspace.py
 ```
 
 ### Prerequisites
@@ -16,7 +21,13 @@ $ git clone https://github.com/KKimj/DomainProcessIsolation-AArch64/
 ```
 $ sudo apt-get install libxml2-dev genext2fs android-tools-adb tree python-dev gcc-multilib python bridge-utils python-numpy sshpass python-wand libxml2-utils libfreetype6-dev python-pip g++-multilib screen python-wrapt python-nose libncurses5:i386 cython gperf libstdc++6:i386 acpica-tools python-matplotlib android-tools-fastboot python-mako trace-cmd libc6:i386 kernelshark
 
+$ sudo -H pip2 install --upgrade pip
+$ pip2 install pandas pyserial trappy
+$ pip2 install devlib jupyter nose
+$ pip2 install IPython bart-py
+$ pip2 install IPython bart-py devlib jupyter nose pandas pyserial trappy
 ```
+
 
 ## Examples
 
