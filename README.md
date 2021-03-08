@@ -9,21 +9,9 @@ $ git clone https://github.com/KKimj/DomainProcessIsolation-AArch64/
 
 ### Prerequisites
 
-#### [FVP, Fixed Virtual Platforms](https://developer.arm.com/tools-and-software/simulation-models/fixed-virtual-platforms)
+#### 1. [FVP, Fixed Virtual Platforms](https://developer.arm.com/tools-and-software/simulation-models/fixed-virtual-platforms)
 
-#### [Arm DS](https://developer.arm.com/tools-and-software/embedded/arm-development-studio)
-
-```
-
-```
-
-
-
-## Running the tests
-```
-
-```
-
+#### 2. [Arm DS](https://developer.arm.com/tools-and-software/embedded/arm-development-studio)
 
 ## Examples
 
