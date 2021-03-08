@@ -48,4 +48,4 @@ $ git clone https://github.com/KKimj/DomainProcessIsolation-AArch64/
 - PSTATE Register
   - https://sonseungha.tistory.com/464 
 - Blog about AArch64
-  - https://gongpd.tistory.com/category/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4%20%EC%8A%A4%EC%BC%80%EC%B9%98%EB%B6%81  
+  - [https://gongpd.tistory.com/category/하드웨어 스케치북](https://gongpd.tistory.com/category/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4%20%EC%8A%A4%EC%BC%80%EC%B9%98%EB%B6%81)
