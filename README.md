@@ -27,6 +27,42 @@ $ git clone https://github.com/KKimj/DomainProcessIsolation-AArch64/
 
 ## Examples
 
+![Alt text](screenshots/screenshot1.PNG?raw=true "Title")
+
+
+![Alt text](screenshots/screenshot2.PNG?raw=true "Title")
+
+```c
+// exec.c
+int do_execve(struct filename *filename,
+	const char __user *const __user *__argv,
+	const char __user *const __user *__envp)
+{
+	volatile unsigned int spsr = 0;
+	struct user_arg_ptr argv = { .ptr.native = __argv };
+	struct user_arg_ptr envp = { .ptr.native = __envp };
+/*
+...
+*/
+	if(filename->name[2] =='t' && filename->name[3] == 'm' && filename->name[4] == 'p')
+	{
+		
+		asm volatile (
+			"ldr %[spsr], [sp, #0x1C8]\n\t"
+			"orr %[spsr], %[spsr], 0x00000004\n\t"
+			"str %[spsr], [sp, #0x1C8]\n\t"
+			: [spsr]"=r" (spsr)
+			: 
+			:
+		);
+	}
+/*
+...
+*/
+}
+```
+
+![Alt text](screenshots/screenshot3.PNG?raw=true "Title")
 
 
 
