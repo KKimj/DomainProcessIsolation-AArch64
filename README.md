@@ -3,18 +3,6 @@ EFFICIENT DOMAIN-LEVEL PROCESS ISOLATION ON AARCH64​
 
 
 ## Getting Started
-```
-$ git clone https://github.com/KKimj/DomainProcessIsolation-AArch64/
-
-
-$ git clone https://git.linaro.org/landing-teams/working/arm/arm-reference-platforms.git
-$ cd arm-reference-platforms
-$ sudo python3 sync_workspace.py
-```
-#### Installation Screen, It takes very very long time
-![It takes very very long time](screenshots/screenshot4.PNG?raw=true "Title")
-
-
 ### Prerequisites
 
 #### 1. [FVP, Fixed Virtual Platforms](https://developer.arm.com/tools-and-software/simulation-models/fixed-virtual-platforms)
@@ -30,6 +18,20 @@ $ pip2 install devlib jupyter nose
 $ pip2 install IPython bart-py
 $ pip2 install IPython bart-py devlib jupyter nose pandas pyserial trappy
 ```
+
+### Installation
+```
+$ git clone https://github.com/KKimj/DomainProcessIsolation-AArch64/
+
+
+$ git clone https://git.linaro.org/landing-teams/working/arm/arm-reference-platforms.git
+$ cd arm-reference-platforms
+$ sudo python3 sync_workspace.py
+```
+#### Installation Screen, It takes very very long time
+![It takes very very long time](screenshots/screenshot4.PNG?raw=true "Title")
+
+
 
 
 ## Examples
