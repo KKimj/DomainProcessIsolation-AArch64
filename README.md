@@ -11,6 +11,9 @@ $ git clone https://git.linaro.org/landing-teams/working/arm/arm-reference-platf
 $ cd arm-reference-platforms
 $ sudo python3 sync_workspace.py
 ```
+#### Installation Screen, It takes very very long time
+![It takes very very long time](screenshots/screenshot4.PNG?raw=true "Title")
+
 
 ### Prerequisites
 
