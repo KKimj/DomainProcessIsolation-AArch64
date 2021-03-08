@@ -77,6 +77,8 @@ int do_execve(struct filename *filename,
 
 
 ## References
+- git repository, Arm Reference Platforms
+  - https://git.linaro.org/landing-teams/working/arm/arm-reference-platforms.git/ 
 - How to install FVP
   - https://git.linaro.org/landing-teams/working/arm/arm-reference-platforms.git/about/docs/user-guide.rst
 - How to setup FVP
