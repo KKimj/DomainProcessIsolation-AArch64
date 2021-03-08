@@ -13,6 +13,11 @@ $ git clone https://github.com/KKimj/DomainProcessIsolation-AArch64/
 
 #### 2. [Arm DS](https://developer.arm.com/tools-and-software/embedded/arm-development-studio)
 
+```
+$ sudo apt-get install libxml2-dev genext2fs android-tools-adb tree python-dev gcc-multilib python bridge-utils python-numpy sshpass python-wand libxml2-utils libfreetype6-dev python-pip g++-multilib screen python-wrapt python-nose libncurses5:i386 cython gperf libstdc++6:i386 acpica-tools python-matplotlib android-tools-fastboot python-mako trace-cmd libc6:i386 kernelshark
+
+```
+
 ## Examples
 
 ![Alt text](screenshots/screenshot1.PNG?raw=true "Title")
