@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export WORKSPACE = ./fvp
+export WORKSPACE=./fvp
 export IMAGE=$WORKSPACE/build-poky/tmp-poky/deploy/images/fvp-base/Image
 export BL1=$WORKSPACE/build-poky/tmp-poky/deploy/images/fvp-base/bl1-fvp.bin
 export FIP=$WORKSPACE/build-poky/tmp-poky/deploy/images/fvp-base/fip-fvp.bin
