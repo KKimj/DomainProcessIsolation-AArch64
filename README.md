@@ -9,6 +9,11 @@ EFFICIENT DOMAIN-LEVEL PROCESS ISOLATION ON AARCH64​
 ```
 $ sudo apt-get install libxml2-dev genext2fs android-tools-adb tree python-dev gcc-multilib python bridge-utils python-numpy sshpass python-wand libxml2-utils libfreetype6-dev python-pip g++-multilib screen python-wrapt python-nose libncurses5:i386 cython gperf libstdc++6:i386 acpica-tools python-matplotlib android-tools-fastboot python-mako trace-cmd libc6:i386 kernelshark
 
+$ sudo apt-get install chrpath gawk texinfo libssl-dev diffstat wget git-core unzip gcc-multilib \
+ build-essential socat cpio python python3 python3-pip python3-pexpect xz-utils debianutils \
+ iputils-ping python3-git python3-jinja2 libegl1-mesa libsdl1.2-dev pylint3 xterm git-lfs openssl \
+ curl libncurses-dev libz-dev python-pip repo
+
 $ sudo -H pip2 install --upgrade pip
 $ pip2 install pandas pyserial trappy
 $ pip2 install devlib jupyter nose
@@ -195,7 +200,7 @@ int do_execve(struct filename *filename,
 ## References
 - How to Install & Setup FVP
   - https://community.arm.com/developer/tools-software/oss-platforms/f/dev-platforms-forum/44264/how-to-enable-share-folders-between-fvp-and-host-linux
-  - ~~https://git.linaro.org/landing-teams/working/arm/arm-reference-platforms.git/about/docs/user-guide.rst~~
+  - ~~https://git.linaro.org/landing-teams/working/arm/arm-reference-platforms.git/about/docs/basefvp/user-guide.rst~~
 - git repository, Arm Reference Platforms
   - https://git.linaro.org/landing-teams/working/arm/arm-reference-platforms.git/ 
 - How to setup Arm DS for Debugging
