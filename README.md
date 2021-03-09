@@ -5,10 +5,7 @@ EFFICIENT DOMAIN-LEVEL PROCESS ISOLATION ON AARCH64​
 ## Getting Started
 ### Prerequisites
 
-#### 1. [FVP, Fixed Virtual Platforms](https://developer.arm.com/tools-and-software/simulation-models/fixed-virtual-platforms)
-
-#### 2. [Arm DS](https://developer.arm.com/tools-and-software/embedded/arm-development-studio)
-
+#### Dependencies
 ```
 $ sudo apt-get install libxml2-dev genext2fs android-tools-adb tree python-dev gcc-multilib python bridge-utils python-numpy sshpass python-wand libxml2-utils libfreetype6-dev python-pip g++-multilib screen python-wrapt python-nose libncurses5:i386 cython gperf libstdc++6:i386 acpica-tools python-matplotlib android-tools-fastboot python-mako trace-cmd libc6:i386 kernelshark
 
@@ -19,7 +16,12 @@ $ pip2 install IPython bart-py
 $ pip2 install IPython bart-py devlib jupyter nose pandas pyserial trappy
 ```
 
+#### [Arm DS](https://developer.arm.com/tools-and-software/embedded/arm-development-studio)
+
+
 ### Installation
+
+#### [FVP, Fixed Virtual Platforms](https://developer.arm.com/tools-and-software/simulation-models/fixed-virtual-platforms)
 ```
 $ git clone https://github.com/KKimj/DomainProcessIsolation-AArch64/
 
@@ -28,6 +30,7 @@ $ git clone https://git.linaro.org/landing-teams/working/arm/arm-reference-platf
 $ cd arm-reference-platforms
 $ sudo python3 sync_workspace.py
 ```
+
 #### Installation Screen, It takes very very long time
 ![It takes very very long time](screenshots/screenshot4.PNG?raw=true "Title")
 
@@ -77,12 +80,11 @@ int do_execve(struct filename *filename,
 
 
 ## References
+- How to Install & Setup FVP
+  - https://community.arm.com/developer/tools-software/oss-platforms/f/dev-platforms-forum/44264/how-to-enable-share-folders-between-fvp-and-host-linux
+  - ~~https://git.linaro.org/landing-teams/working/arm/arm-reference-platforms.git/about/docs/user-guide.rst~~
 - git repository, Arm Reference Platforms
   - https://git.linaro.org/landing-teams/working/arm/arm-reference-platforms.git/ 
-- How to install FVP
-  - https://git.linaro.org/landing-teams/working/arm/arm-reference-platforms.git/about/docs/user-guide.rst
-- How to setup FVP
-  - https://community.arm.com/developer/tools-software/oss-platforms/f/dev-platforms-forum/44264/how-to-enable-share-folders-between-fvp-and-host-linux
 - How to setup Arm DS for Debugging
   - https://community.arm.com/developer/tools-software/tools/b/tools-software-ides-blog/posts/debugging-the-armv8-a-linux-kernel-with-ds-5 
   - https://community.arm.com/developer/tools-software/oss-platforms/f/dev-platforms-forum/48420/warning-dts3-nal2-fvp-linux-kernel-debug
