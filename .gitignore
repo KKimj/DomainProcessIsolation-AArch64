@@ -1,3 +1,5 @@
 /arm-reference-platforms/linux/arch/*
 
 !/arm-reference-platforms/linux/arch/arm64/
+!/arm-reference-platforms/linux/fs
+
