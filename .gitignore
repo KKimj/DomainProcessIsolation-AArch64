@@ -1,4 +1,3 @@
-/arm-reference-platforms/*
+/arm-reference-platforms/linux/arch/*
 
-!/arm-reference-platforms/5518.armplat_1901.py
 !/arm-reference-platforms/linux/arch/arm64/kernel/*
