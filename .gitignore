@@ -1,3 +1,3 @@
 /arm-reference-platforms/linux/arch/*
 
-!/arm-reference-platforms/linux/arch/arm64/kernel/*
+!/arm-reference-platforms/linux/arch/arm64/
