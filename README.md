@@ -28,6 +28,13 @@ $ pip2 install IPython bart-py devlib jupyter nose pandas pyserial trappy
 ### Installation
 
 #### [FVP, Fixed Virtual Platforms](https://developer.arm.com/tools-and-software/simulation-models/fixed-virtual-platforms)
+
+```
+$ repo init -u https://git.linaro.org/landing-teams/working/arm/arm-reference-platforms-manifest.git -m fvp-yocto.xml -b refs/tags/BASEFVP-2020.08.06
+$ repo sync -j 4
+```
+
+
 ```
 $ git clone https://github.com/KKimj/DomainProcessIsolation-AArch64/
 
